@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a header and footer and moving to a book list</title>
+    <style>
+        body, html {
+            height: 100%;
+          }
+          
+          .bg {
+            /* The image used */
+            background-image: url("/img.jpg");
+          
+            /* Full height */
+            height: 100%;
+          
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        
+           .left {
+        color: rgb(0, 0, 0);
+
+        font-size: 25px;
+        display: inline-block;
+        position: absolute;
+        left: 18px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 158px;
+        border: 3px solid rgb(223, 142, 22);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 35px;
+    }
+
+
+    .mid {
+        color: white;
+
+        display: block;
+        width: 80%;
+        margin: 1px 300px;
+        top: 4px;
+    }
+         
+
+          footer {
+            border: 2px solid rgb(223, 142, 22);
+            font-size: larger;
+            background-color: rgb(26, 26, 26);
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            position:absolute;
+            bottom:0;
+            
+            width: 30%;
+        margin: 25px 590px;
+        
+        
+        height: 60px;
+               
+         }
+         .navbar {
+            border: 2px solid rgb(223, 142, 22);
+            display: inline-block;  
+            background-color: rgb(26, 26, 26);
+            border-radius: 10px;
+        }
+        .navbar li {
+
+
+            display: inline-block;
+        }
+        .navbar li a {
+
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 40px 40px;
+            font-size: 35px;
+            cursor: pointer;
+    
+        }
+    
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+        }
+        #box1 {
+
+            position: fixed;
+    
+        }
+        #box2 {
+
+            position: fixed;
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <header class="header">
+        <div id="box1" class="left">
+            <img src="/dchancreative211005820.jpg" alt="">
+            <div>
+                <strong>SK BOOKS</strong>
+            </div>
+        </div>
+        <div id="box2" class="mid">
+            <ul class="navbar">
+                <li><a href="/htmlweek1day2task1.html">Home  </a></li>
+                <li><a href="/htmlweek1day1ctask.html">Book Info Table  </a></li> 
+                <li><a href="/htmlweek1day1dtask2.html"> Book Info List  </a></li>
+           
+                <li><a href="/bookinfopage.html" class="btn">Add Book Info</a></li>
+               
+              </ul>
+        </div>
+        
+          
+    </header>
+    
+    <footer>
+        <p>This page is created by Shantanu Khandelwal &copy;</p>
+    </footer>
+</body>
+</html>

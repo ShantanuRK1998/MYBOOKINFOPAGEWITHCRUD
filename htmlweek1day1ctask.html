@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a book table</title>
+    <style>
+        h2{
+            text-align: center;
+            background-color:rgb(130, 130, 240);
+            color: rgb(255, 255, 255);
+            border: 3px solid rgb(130, 130, 240);
+        }
+        table {
+            font-family: monospace;
+            font-weight: bold;
+
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(130, 130, 240);
+        z-index: -4;
+        }
+        
+        body{
+            margin: auto;
+            padding: 0%;
+            height: 0;
+ 
+        }
+       
+         .navbar{
+             margin: 25px;
+             top: 0px;
+             width: 100;
+             background-color: rgb(130, 130, 240);
+             border-radius: 3px solid white;
+                     }
+ 
+         .navbar ul{
+             overflow: auto;
+         }
+ 
+         .navbar li{
+             
+           display: inline-flex;
+             list-style: none;
+             margin: 30px 16px ;
+             
+             
+         }
+ 
+         .navbar li a{
+             
+             padding: 3px 3px;
+             text-decoration: none;
+             color: rgb(0, 0, 0);
+ 
+         }
+ 
+         .navbar li a:hover{
+             color: black;
+         }
+ 
+         .btn{
+             font-family: monospace;
+             font-weight: bold;
+             background-color: white;
+             border: none;
+             padding: 6px;
+             cursor: pointer;
+             font-size: 13px;
+             border-radius: 4px;
+ 
+         }
+         html{
+              
+                 background: url(/booktable2.jfif) no-repeat center center fixed; 
+                 -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+               
+         }
+ 
+         footer {
+             font-family: monospace;
+             font-weight: bold;
+             text-align: center;
+             background-color: rgb(130, 130, 240);
+             color: #fff;
+             padding: 20px;
+             position: absolute;
+             bottom: -330px;
+             width: 100%;
+             /* position: fixed;
+             z-index: 1; */
+           }
+ 
+           footer a{
+               color: #fff;
+               text-decoration: none;
+           }
+        
+   
+    </style>
+   
+
+</head>
+<body>
+    
+    <header>
+       
+        <nav class="navbar">
+            <ul>
+              
+                <li><a href="/SKBOOKS.html" class="btn">Home</a></li>
+                <li><a href="/htmlweek1day1dtask2.html" class="btn">Book List</a></li>
+                <li><a href="/htmlweek1day1ctask.html" class="btn">Book Table</a></li>
+                <li><a href="/htmlweek1day2task2.html" class="btn">Contact Us</a></li>
+               
+                <li><a href="/bookinfopage.html" class="btn">Add Book Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<h2>Book  Info Table</h2> <hr>    
+<table border="1" align="center">
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Book Image</th>
+            <th>Author</th>
+            <th>Book Description</th>
+            <th>Book Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>s/td>
+            <td><img src="Rd Sharma.jfif" alt=""></td>
+            <td>RD Sharma</td>
+            <td>This Book is useful for JEE(Main & Advanced) and other engineering entrance examinations. Aspirants who are preparing for these competetive examinations can refer this book for the preparations. The book has 2 volumes which cover the whole mathematics section in a comprehensive and detailed way to undetstand easily.</td>
+            <td>1049/-</td>
+        </tr>
+            <tr>
+
+        <td>Atomic Habits</td>
+        <td><img src="atmc.jfif" alt=""></td>
+        <td>James Clear</td>
+        <td>In this ground-breaking book, Clear reveals how these tiny changes will help you get 1 percent better every day. He uncovers a handful of simple life hacks (the forgotten art of Habit Stacking, the unexpected power of the Two Minute Rule, or the trick to entering the Goldilocks Zone) and delves into cutting-edge psychology and neuroscience to explain why they matter. Along the way, he tells inspiring stories of Olympic gold medalists, leading CEOs and distinguished scientists who have used the science of small habits to stay productive, motivated and happy.
+
+            These small changes will have a revolutionary effect on your career, your relationships and your life.</td>
+            <td>482/-</td>
+        </tr>
+        <tr>
+            <td>Rich Dad Poor Dad</td>
+            <td><img src="rdpd.jfif" alt=""></td>
+            <td>Robert T Kiyosaki</td>
+            <td>
+                Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his rich dad — and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.</td>
+                <td>243/-</td>
+        </tr>
+        
+            
+    </tbody>
+</table>
+<footer>
+    <p>This Page Is Created By <a href="https://www.linkedin.com/in/shantanu1998">Shantanu Khandelwal</a> &copy;</p>
+</footer>
+</body>
+</html>
